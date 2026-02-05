@@ -1,7 +1,7 @@
 # 🐚 Shell Scripting 🚀
 
 Welcome to **Shell Scripting** — a collection of Bash & POSIX shell scripts covering **core concepts** and **mini projects**.  
-This repo is where I put code while learning shell fundamentals and building small automation scripts ⚡ . I have learned these concepts from a ~2 hours [youtube video](https://www.youtube.com/watch?v=wLffm-Ci2U0&t=2542s) by **@WSCubeTech**
+This repo is where I put code while learning shell fundamentals and building small automation scripts ⚡ . I have learned these concepts from a ~2 hours [youtube video](https://www.youtube.com/watch?v=wLffm-Ci2U0) by **@WSCubeTech**
 
 ---
 
@@ -10,26 +10,6 @@ This repo is where I put code while learning shell fundamentals and building sma
 - 📝 Snippets for **user input, loops, conditions, and functions**
 - ⚡ Mini projects for **automation & practice**
 - 🔒 Notes on **secure and portable scripting**
-
----
-
-## 🚀 How to Run
-Clone the repo:
-```bash
-git clone https://github.com/cyberumair/ShellScripting.git
-cd ShellScripting
-```
-
-Make a script executable:
-```
-chmod +x script.sh
-./script.sh
-```
-
-Or just run with Bash:
-```
-bash script.sh
-```
 
 ---
 
