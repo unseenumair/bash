@@ -1,0 +1,15 @@
+Loops (Only 2 You Need)
+
+For loop
+
+for item in "$@"; do
+    echo "$item"
+done
+
+While loop (file reading)
+
+while read line; do
+    echo "$line"
+done < file.txt
+
+That’s enough for 80% of DevOps scripts.

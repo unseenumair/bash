@@ -1,0 +1,9 @@
+Control Operators (Huge Impact)
+
+command1 && command2
+
+(run second only if first succeeds)
+
+command1 || command2
+
+(run second only if first fails)

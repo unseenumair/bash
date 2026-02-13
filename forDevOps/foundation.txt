@@ -1,0 +1,37 @@
+🧱 Script Skeleton (Absolute Foundation)
+
+What You Must Know Instantly
+
+#!/bin/bash
+
+Make script executable:
+
+chmod +x script.sh
+
+Run:
+
+./script.sh
+
+Variables (Core Only)
+
+name="Umair"
+echo "$name"
+
+⚠️ Always quote variables:
+
+"$var"
+
+That avoids 80% of beginner bugs bcz it prevents wordSplitting, Globbing etc
+
+- '$var' will not allow variable to expand
+- '' inside "" will be just a character and will not prevent expansion of variable
+
+---
+
+🔥 Micro Practice 1
+
+Create script that:
+
+Declares a variable city
+
+Prints: "Deploying server in <city>"

@@ -1,0 +1,46 @@
+🧱 Conditionals
+
+Only this format:
+
+if [ condition ]; then
+    command
+elif [ condition ]; then
+    command
+else
+    command
+fi
+
+Important test operators:
+
+-f → file exists
+
+-d → directory exists
+
+-z → string empty
+
+-n → string not empty
+
+-eq, -gt, -lt (numbers)
+
+
+Example:
+
+if [ -f "$1" ]; then
+    echo "File exists"
+else
+    echo "File not found"
+fi
+
+- Note : Use [[]] bcz it is more modern and safer
+
+---
+
+🔥 Micro Practice 3
+
+Script:
+
+Takes filename
+
+If file exists → print "Found"
+
+Else → exit with code 1

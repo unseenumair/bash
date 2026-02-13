@@ -1,0 +1,13 @@
+🧱 Arguments (Very Important)
+
+You must know:
+
+$0 → script name
+
+$# → argument count , # = 1, 2, 3, ...
+
+$@ → all arguments except $0
+
+Example:
+
+echo "First argument is $1"

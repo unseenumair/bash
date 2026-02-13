@@ -1,0 +1,4 @@
+Exit Codes
+
+exit 0   # success
+exit 1   # failure
