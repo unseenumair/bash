@@ -1,0 +1,146 @@
+🔥 New Phase 1 — REAL Beginner-Systems Problems (10)
+
+These require zero external knowledge.
+
+
+---
+
+1️⃣ File Existence Checker
+
+Script takes one argument.
+
+If empty → print usage + exit 1
+
+If file exists → print File exists
+
+Else → print File not found
+
+
+
+---
+
+2️⃣ Even or Odd
+
+Script takes one number.
+
+If empty → exit 1
+
+If number is even → print Even
+
+Else → print Odd
+
+
+
+---
+
+3️⃣ Bigger Number
+
+Script takes 2 numbers.
+
+If either missing → exit 1
+
+Print which one is greater
+
+If equal → print Equal
+
+
+
+---
+
+4️⃣ Line Counter
+
+Script takes filename.
+
+If not exist → exit 1
+
+Count total lines using while read
+
+Print count
+
+
+
+---
+
+5️⃣ Empty Line Counter
+
+Given a file:
+
+Count only empty lines
+
+Print total
+
+
+
+---
+
+6️⃣ Word Echo Loop
+
+Script keeps asking user:
+
+Enter word:
+
+If user types:
+
+stop → exit
+
+Empty input → print warning
+
+Otherwise → echo it back
+
+
+
+---
+
+7️⃣ Directory Checker
+
+Script takes path.
+
+If not exist → exit 1
+
+If directory → print Directory
+
+If file → print File
+
+
+
+---
+
+8️⃣ Multi-Argument Sum
+
+Script:
+
+./sum.sh 5 3 10
+
+Output:
+
+Total: 18
+
+If no args → exit 1.
+
+
+---
+
+9️⃣ Simple File Scanner
+
+Script takes directory.
+
+For each file inside:
+
+Print filename
+
+Print file size (use wc -c)
+
+
+
+
+---
+
+🔟 Largest Number (Unlimited args)
+
+Same as before but simpler:
+
+Print largest number
+
+No regex
+
+No advanced tools
