@@ -1,0 +1,124 @@
+⚙️ Phase 2 — 15 Bash + Linux Problems
+
+
+---
+
+1️⃣ Disk Usage Reporter
+
+Script takes a directory.
+
+If invalid → exit 1
+
+Print total size using du
+
+Print top 5 largest files inside (sorted)
+
+
+
+---
+
+2️⃣ Log Error Counter
+
+Given a log file:
+
+Count how many lines contain the word error
+
+Print total
+
+If zero → print “System clean”
+
+
+Use grep + wc.
+
+
+---
+
+3️⃣ Failed Login Monitor
+
+Using /var/log/auth.log (or a sample log file):
+
+Count failed login attempts
+
+If > 5 → print “ALERT”
+
+
+
+---
+
+4️⃣ Process Checker
+
+Script takes process name as argument.
+
+If running → print “Process active”
+
+Else → print “Process not running”
+
+
+Use ps + grep.
+
+
+---
+
+5️⃣ Directory File Summary
+
+Given a directory:
+
+Count total files
+
+Count total directories
+
+Print both numbers
+
+
+Use ls or find.
+
+
+---
+
+6️⃣ Large File Detector
+
+Script takes directory + size (in KB).
+
+Print files larger than given size
+
+If none → print “No large files”
+
+
+Use find.
+
+
+---
+
+7️⃣ Top Memory Consumer
+
+Print top 5 processes consuming highest memory.
+
+Use ps, sort, head.
+
+
+---
+
+8️⃣ Word Frequency Checker
+
+Given a file + word:
+
+Count occurrences of that word
+
+Print result
+
+
+Use grep -c.
+
+
+---
+
+9️⃣ Backup Script (Mini Version)
+
+Given a directory:
+
+Create backup folder named backup_YYYYMMDD
+
+Copy all files into it
+
+Print confirmation
+
