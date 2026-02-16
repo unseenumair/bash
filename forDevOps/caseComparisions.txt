@@ -26,7 +26,7 @@ using
   esac
 
 as
-  case ${input,,} in
+  case "${input,,}" in
     yes|y) echo "Proceed" ;;
     no|n)  echo "Abort" ;;
     *)     echo "Invalid" ;;
