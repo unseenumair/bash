@@ -19,11 +19,11 @@ done
 
 echo -e "$path has $files FILES & $directories DIRECTORIES"
 
-<< problem
-  5️⃣ Directory File Summary
+# problem
+#   5️⃣ Directory File Summary
   
-  Given a directory:
-  Count total files
-  Count total directories
-  Print both numbers
-problem
+#   Given a directory:
+#   Count total files
+#   Count total directories
+#   Print both numbers
+# problem

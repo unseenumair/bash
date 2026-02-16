@@ -14,10 +14,10 @@ elif [ -f "$file" ]; then
   echo "Empty Lines in $file are $count" 
 fi
 
-<< problem
-  5️⃣ Empty Line Counter
+#  problem
+#   5️⃣ Empty Line Counter
   
-  Given a file:
-  Count only empty lines
-  Print total
-problem
+#   Given a file:
+#   Count only empty lines
+#   Print total
+# problem

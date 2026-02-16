@@ -15,11 +15,11 @@ else
   exit 1
 fi
 
-<< problem
-  2️⃣ Log Error Counter
+# problem
+#   2️⃣ Log Error Counter
   
-  Given a log file:
-  Count how many lines contain the word error
-  Print total
-  If zero → print “System clean”
-problem
+#   Given a log file:
+#   Count how many lines contain the word error
+#   Print total
+#   If zero → print “System clean”
+# problem

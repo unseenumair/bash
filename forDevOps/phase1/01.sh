@@ -11,12 +11,12 @@ else
   echo "$file dosen't exists"
 fi
 
-<< problem
-1️⃣ File Existence Checker
+#  problem
+# 1️⃣ File Existence Checker
 
-Script takes one argument.
-If empty → print usage + exit 1
-If file exists → print File exists
-Else → print File not found
+# Script takes one argument.
+# If empty → print usage + exit 1
+# If file exists → print File exists
+# Else → print File not found
 
-problem
+# problem

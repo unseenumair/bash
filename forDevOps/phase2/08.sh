@@ -11,10 +11,10 @@ fi
 result=$(grep -c "$word" "$file")
 echo "Word $word occurred $result times in $file"
 
-<< problem
-  8️⃣ Word Frequency Checker
+# problem
+#   8️⃣ Word Frequency Checker
   
-  Given a file + word:
-  Count occurrences of that word
-  Print result
-problem
+#   Given a file + word:
+#   Count occurrences of that word
+#   Print result
+# problem

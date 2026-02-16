@@ -8,11 +8,11 @@ else
   wc -c "$path"/*
 fi
 
-<< problem
-  9️⃣ Simple File Scanner
+# problem
+#   9️⃣ Simple File Scanner
   
-  Script takes directory.
-  For each file inside:
-  Print filename
-  Print file size (use wc -c)
-problem
+#   Script takes directory.
+#   For each file inside:
+#   Print filename
+#   Print file size (use wc -c)
+# problem

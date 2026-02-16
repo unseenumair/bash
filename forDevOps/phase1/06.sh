@@ -10,13 +10,13 @@ while true; do
   fi
 done
 
-<< problem
-  6️⃣ Word Echo Loop
+# problem
+#   6️⃣ Word Echo Loop
   
-  Script keeps asking user:
-  Enter word:
-  If user types:
-  stop → exit
-  Empty input → print warning
-  Otherwise → echo it back
-problem
+#   Script keeps asking user:
+#   Enter word:
+#   If user types:
+#   stop → exit
+#   Empty input → print warning
+#   Otherwise → echo it back
+# problem

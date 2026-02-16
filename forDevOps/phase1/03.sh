@@ -12,11 +12,11 @@ else
   echo "Invalid Number"
 fi
 
-<< problem
-  3️⃣ Bigger Number
+# problem
+#   3️⃣ Bigger Number
   
-  Script takes 2 numbers.
-  If either missing → exit 1
-  Print which one is greater
-  If equal → print Equal
-problem
+#   Script takes 2 numbers.
+#   If either missing → exit 1
+#   Print which one is greater
+#   If equal → print Equal
+# problem

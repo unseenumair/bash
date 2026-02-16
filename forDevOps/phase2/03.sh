@@ -15,10 +15,10 @@ else
   exit 1 
 fi
 
-<< problem
-  3️⃣ Failed Login Monitor
+# problem
+#   3️⃣ Failed Login Monitor
   
-  Using /var/log/auth.log (or a sample log file):
-  Count failed login attempts
-  If > 5 → print “ALERT”
-problem
+#   Using /var/log/auth.log (or a sample log file):
+#   Count failed login attempts
+#   If > 5 → print “ALERT”
+# problem

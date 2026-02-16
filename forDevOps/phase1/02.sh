@@ -10,11 +10,11 @@ else
   echo "$number is Odd"
 fi
 
-<< problem
-  2️⃣ Even or Odd
+#  problem
+#   2️⃣ Even or Odd
   
-  Script takes one number.
-  If empty → exit 1
-  If number is even → print Even
-  Else → print Odd
-problem
+#   Script takes one number.
+#   If empty → exit 1
+#   If number is even → print Even
+#   Else → print Odd
+# problem

@@ -13,10 +13,10 @@ else
   exit 1
 fi
 
-<< problem
-  4️⃣ Process Checker
+# problem
+#   4️⃣ Process Checker
   
-  Script takes process name as argument.
-  If running → print “Process active”
-  Else → print “Process not running”
-problem
+#   Script takes process name as argument.
+#   If running → print “Process active”
+#   Else → print “Process not running”
+# problem

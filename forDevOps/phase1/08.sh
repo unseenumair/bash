@@ -11,12 +11,12 @@ else
   echo "SUM: $sum"
 fi
 
-<< problem
-  8️⃣ Multi-Argument Sum
+# problem
+#   8️⃣ Multi-Argument Sum
   
-  Script:
-  ./sum.sh 5 3 10
-  Output:
-  Total: 18
-  If no args → exit 1.
-problem
+#   Script:
+#   ./sum.sh 5 3 10
+#   Output:
+#   Total: 18
+#   If no args → exit 1.
+# problem

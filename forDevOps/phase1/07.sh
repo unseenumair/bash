@@ -13,11 +13,11 @@ else
   echo "neither file nor directory"
 fi
 
-<< problem
-  7️⃣ Directory Checker
+# problem
+#   7️⃣ Directory Checker
   
-  Script takes path.
-  If not exist → exit 1
-  If directory → print Directory
-  If file → print File
-problem
+#   Script takes path.
+#   If not exist → exit 1
+#   If directory → print Directory
+#   If file → print File
+# problem

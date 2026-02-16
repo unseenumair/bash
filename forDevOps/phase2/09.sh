@@ -15,11 +15,11 @@ if [ -d "../$backupFolderName" ]; then
   echo "Congrats, $backupFolderName CREATED as backup of $directory at ../$directory"
 fi
 
-<< problem
-  9️⃣ Backup Script (Mini Version)
+# problem
+#   9️⃣ Backup Script (Mini Version)
   
-  Given a directory:
-  Create backup folder named backup_YYYYMMDD
-  Copy all files into it
-  Print confirmation
-problem
+#   Given a directory:
+#   Create backup folder named backup_YYYYMMDD
+#   Copy all files into it
+#   Print confirmation
+# problem

@@ -12,11 +12,11 @@ else
   echo "Total Lines in $file are $count"
 fi  
 
-<< problem
-  4️⃣ Line Counter
+# problem
+#   4️⃣ Line Counter
   
-  Script takes filename.
-  If not exist → exit 1
-  Count total lines using while read
-  Print count
-problem
+#   Script takes filename.
+#   If not exist → exit 1
+#   Count total lines using while read
+#   Print count
+# problem

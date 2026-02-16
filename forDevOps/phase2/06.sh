@@ -16,10 +16,10 @@ else
   echo "No File is more than $maxSize KiB in $directory"
 fi
 
-<< problem
-  6️⃣ Large File Detector
+# problem
+#   6️⃣ Large File Detector
   
-  Script takes directory + size (in KB).
-  Print files larger than given size
-  If none → print “No large files”
-problem
+#   Script takes directory + size (in KB).
+#   Print files larger than given size
+#   If none → print “No large files”
+# problem
