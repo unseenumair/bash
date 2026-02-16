@@ -1,0 +1,36 @@
+1. Making string to lower
+
+using 
+  lower=${var,,}
+
+as
+  input="HeLLo WoRLD"
+  lower=${input,,}
+    
+  echo "$lower"
+  # hello world  
+
+# Case Sensitive Comparision
+  if [ "${a,,}" = "${b,,}" ]; then
+    echo "Equal"
+  fi
+
+2. Production Ready Pattern
+
+
+using
+  case STRING in
+    PATTERN1) COMMANDS ;;
+    PATTERN2) COMMANDS ;;
+    *) COMMANDS ;;  # default
+  esac
+
+as
+  case ${input,,} in
+    yes|y) echo "Proceed" ;;
+    no|n)  echo "Abort" ;;
+    *)     echo "Invalid" ;;
+  esac
+
+same as SwitchCase statements in programming languages
+
