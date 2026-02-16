@@ -1,0 +1,32 @@
+# HereDoc is a redirection method that gives a block as stdin (standard input) to a command, it will take newLines, formatted as it is
+
+# ---
+
+# When need expansion of variable inside it then :
+name="Umair"
+
+text=$(cat <<EOF
+Hello $name
+Today is $(date)
+EOF
+)
+
+# OtherWise :
+
+text=$(cat <<'EOF'
+Hello $name
+Today is $(date)
+EOF
+)
+
+# ---
+
+# EOF usually means End of File
+# it is not necessary to give block title EOF , it can be word but the starting & closing words both must be same . It is caseSensitive, spaceSensitive etc
+
+# Example:
+
+# <<'TechGiant'
+#   Founder & CEO: Umair
+#   No. of Employees: 100K
+# TechGiant
