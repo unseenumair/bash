@@ -1,0 +1,62 @@
+0. Syntax :
+
+function greet {
+    echo "Hello, $1!"
+}
+
+or
+
+greet() {
+    echo "Hello, $1!"
+}
+
+1. Passing Arguments :
+
+Bash functions receive arguments like scripts:
+$1 → first argument
+$2 → second argument
+$@ → all arguments as array
+$# → number of arguments
+
+greet() {
+    name=${1:-Guest}  # default to "Guest" if no argument
+    echo "Hello, $name!"
+}
+
+greet "Umair"
+greet
+
+Output :
+
+Hello, Umair!
+Hello, Guest!
+
+2. Returning Values
+
+Bash functions cannot return strings directly like in other languages.
+They return integers (exit code) for status:
+
+add() {
+    local sum=$(( $1 + $2 ))
+    echo "$sum"   # echo the result
+    return 0      # optional, default success
+}
+
+result=$(add 5 7)
+echo "$result"  # 12
+
+4. local vs Global Var :
+
+myfunc() {
+    local x=5      # only inside function
+    y=10           # global variable
+}
+
+myfunc
+echo $x  # empty
+echo $y  # 10
+
+5. Hositing
+
+Unlike JavaScript, Bash functions do need to be defined before use in the script.
+There is no hoisting in Bash. Functions are executed only after the interpreter has read the definition.
