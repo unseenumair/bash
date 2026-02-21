@@ -1,0 +1,10 @@
+2026-02-21 09:01:12 INFO Starting backup process
+2026-02-21 09:01:13 INFO Checking disk space
+2026-02-21 09:01:15 ERROR Failed to mount /mnt/data
+2026-02-21 09:01:16 INFO Retry mounting
+2026-02-21 09:01:18 WARNING Disk almost full
+2026-02-21 09:01:20 ERROR Could not connect to database
+2026-02-21 09:01:22 INFO Cleanup temp files
+2026-02-21 09:01:23 ERROR Failed to send email notification
+2026-02-21 09:01:25 INFO Backup finished with errors
+2026-02-21 09:01:26 INFO System idle
