@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Giving something to Python as args
+
 # 1. for SMALL python scripts
 
 name="Umair"
@@ -29,3 +31,10 @@ rm -f "$tmpfile"
 
 # in Python
 # import sys; name = sys.argv[1]; timestamps = sys.argv[2];
+
+# Taking something from Python as stdout
+
+# 1. For 90% of scripts
+
+# mapfile -t arr < <(python3 script.py)
+# Run Python, take each line it prints, and store those lines safely inside the Bash array arr.
